@@ -21,16 +21,21 @@ def ask_gemini(prompt):
 
 #2- RAG Process by video transcript textures
 def rag_with_video_transcript(transcript_docs, prompt):
+     # Data Chunking
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
         chunk_overlap=0,
         length_function=len
-    )
-
+    )   
     splitted_documents = text_splitter.split_documents(transcript_docs)
+    
+    # Vectorizing the chunks (embedding process: text data -> numerical data)
     vectorstore = FAISS.from_documents(splitted_documents, embeddings)
     retriever = vectorstore.as_retriever()
-    relevant_documents = retriever.get_relevant_documents(prompt)
+    
+    # Retrieving the data chunks related to context by using techniques such Semanctic Search(in background Cosine Similarity)
+    relevant_documents = retriever.get_relevant_documents(prompt) # obtaining List[Document]
+    # Document => special Data Model having properties as "page_content" & "metadata"
 
     context_data = ""
 

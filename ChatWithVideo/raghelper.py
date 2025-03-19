@@ -35,7 +35,7 @@ def rag_with_video_transcript(transcript_docs, prompt):
     
     # Retrieving the data chunks related to context by using techniques such Semanctic Search(in background Cosine Similarity)
     relevant_documents = retriever.get_relevant_documents(prompt) # obtaining List[Document]
-    # Document => special Data Model having properties as "page_content" & "metadata"
+    # Document => special Data Model Class having properties as "page_content" & "metadata"
 
     context_data = ""
 

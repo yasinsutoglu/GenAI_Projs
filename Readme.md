@@ -17,6 +17,7 @@ Folder
 - TalkToImage
 - ChatWithReActAgent
 - Python_Coding_Assistant
+- Multi-Agent-PersonalityTest
 ```
 
 <!-- --------------------------------------- -->

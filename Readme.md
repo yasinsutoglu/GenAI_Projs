@@ -16,7 +16,7 @@ Folder
 - Readme
 - TalkToImage
 - ChatWithReActAgent
-- OpenAI_Assistant
+- Python_Coding_Assistant
 ```
 
 <!-- --------------------------------------- -->

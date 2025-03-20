@@ -15,7 +15,8 @@ Folder
 |
 - Readme
 - TalkToImage
-- 
+- ChatWithReActAgent
+- OpenAI_Assistant
 ```
 
 <!-- --------------------------------------- -->

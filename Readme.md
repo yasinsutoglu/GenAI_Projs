@@ -18,6 +18,7 @@ Folder
 - ChatWithReActAgent
 - Python_Coding_Assistant
 - Multi-Agent-PersonalityTest
+- EDA_Agent
 ```
 
 <!-- --------------------------------------- -->

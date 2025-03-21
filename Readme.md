@@ -19,6 +19,7 @@ Folder
 - Python_Coding_Assistant
 - Multi-Agent-PersonalityTest
 - EDA_Agent
+- Local_Inference
 ```
 
 <!-- --------------------------------------- -->

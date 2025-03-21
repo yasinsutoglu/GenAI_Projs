@@ -1,0 +1,12 @@
+matplotlib
+numpy
+openai
+pandas
+python-dotenv
+seaborn
+streamlit
+langchain
+langchain-experimental
+langchain-openai
+langchain-anthropic
+tabulate
